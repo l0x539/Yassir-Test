@@ -1,3 +1,16 @@
+# Yassir BE-dev test
+
+This is an official test from [yassir](https://yassir.com/).
+
+### Note
+
+The code has been refactored, further discrussion should occur regarding unused code related to the Pokemon API.
+
+### Requirement
+
+* [Node version 16^ LTS](https://nodejs.org/en/download/).
+
+#
 # Fastify & Typescript App
 
 ## Description
