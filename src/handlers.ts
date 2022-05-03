@@ -116,5 +116,5 @@ export const computeResponse = async (
   // const types = response.types?.filter(type => type.type).map(type => type.type.url);
   // const pokemonTypes = await Promise.all(types.map(async (typeUrl) => await getApiPokemonTypes(typeUrl)));
   
-  return response.stats.reduce((prev, stat) => 0 + stat.base_stat, 0) / response.stats.length;
+  return response.stats.reduce((prev, stat) => prev + stat.base_stat, 0) / response.stats.length;
 }
